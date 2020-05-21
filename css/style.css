@@ -1,0 +1,69 @@
+.cursor-pointer{
+    cursor: pointer;
+}
+.hover-invert:not(.active):hover{
+    color:white;
+    background: black;
+}
+.color{
+    background-color:lightcyan;
+}
+#Loading {
+    background:url(../img/831.gif) no-repeat center center;
+    position: absolute;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 9999999;
+}
+.loadingMessage{
+    width: 100%;
+    font-size: 40px;
+    display:flex;
+    justify-content: center;
+    font-family: 'Special Elite', cursive;
+}
+
+.center-text{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    top: 35%;
+    left: 50%;
+    margin-left: -50px; 
+    margin-top: -25px; 
+}
+
+#Loading2 {
+    background:url(../img/831.gif) no-repeat;
+ 
+}
+
+#MainTitle{
+    font-family: 'Special Elite', cursive;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+#bookTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+}
+img {
+    max-height: 400px;
+    max-width: 400px;
+ }
+ .current{
+     background-color: orange;
+ }
+ .textsize{
+     font-size:100px;
+ }
